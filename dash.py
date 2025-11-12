@@ -20,6 +20,8 @@ ano = st.sidebar.selectbox("Ano", df_filtro["Ano"].unique())
 
 df_filtro = df_filtro[df_filtro["Ano"] == ano]
 
+df_filtro["Pessoas de 14 anos ou mais de idade, desocupadas na semana de referência (Mil pessoas)"] = df_filtro["Pessoas de 14 anos ou mais de idade, desocupadas na semana de referência (Mil pessoas)"].astype(int)
+
 total = df_filtro.groupby("Nível de instrução")[["Pessoas de 14 anos ou mais de idade, desocupadas na semana de referência (Mil pessoas)"]].sum().reset_index()
 
 fig_total = px.pie(total, values = "Pessoas de 14 anos ou mais de idade, desocupadas na semana de referência (Mil pessoas)", names = "Nível de instrução")
