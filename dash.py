@@ -131,3 +131,15 @@ Os dados reforçam que políticas educacionais precisam vir acompanhadas de estr
 redução de desigualdades regionais, qualificação profissional alinhada ao mercado e combate às assimetrias de informação. 
 Assim, investir em escolaridade continua sendo fundamental, mas deve ser planejado.
 """)
+
+st.markdown(""" ##Referências:
+https://www.infomoney.com.br/carreira/no-brasil-desemprego-atinge-mais-quem-terminou-o-ensino-medio-diz-ocde/
+https://www.scielo.br/j/rec/a/j8WvQfYgNNDqH5NW336SqTd/?format=pdf&lang=pt
+https://www.eco.unicamp.br/images/arquivos/artigos/LEP/L31/05_Artigo01.pdf
+https://portalantigo.ipea.gov.br/agencia/images/stories/PDFs/mercadodetrabalho/mt_021g.pdf
+https://pt.wikipedia.org/wiki/Capital_humano
+https://www.dieese.org.br/boletimempregoempauta/2019/boletimEmpregoEmPauta13.pdf
+https://www.scielo.br/j/ecoa/a/Mwb9MWwnFbf3TXC4zN3JmpL/?format=pdf&lang=pt
+https://institutoalce.org.br/relacao-entre-as-taxas-de-desemprego-e-o-nivel-de-escolaridade/
+https://www.econ.puc-rio.br/api/uploads/adm/trabalhos/files/Rebeca_Gaudencio_Lima_Mono_21.2.pdf
+""")
