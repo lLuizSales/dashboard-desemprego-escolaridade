@@ -142,4 +142,9 @@ st.markdown(""" ## Referências:
 - https://www.scielo.br/j/ecoa/a/Mwb9MWwnFbf3TXC4zN3JmpL/?format=pdf&lang=pt
 - https://institutoalce.org.br/relacao-entre-as-taxas-de-desemprego-e-o-nivel-de-escolaridade/
 - https://www.econ.puc-rio.br/api/uploads/adm/trabalhos/files/Rebeca_Gaudencio_Lima_Mono_21.2.pdf
+
+## Fonte Dados:
+- https://sidra.ibge.gov.br/tabela/5919 (Nivel de Instrucao)
+- https://sidra.ibge.gov.br/tabela/4092 (Desemprego)
+- https://sidra.ibge.gov.br/tabela/4095 (Desemprego por nivel de instrucao)
 """)
