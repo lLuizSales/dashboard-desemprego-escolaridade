@@ -132,7 +132,11 @@ redução de desigualdades regionais, qualificação profissional alinhada ao me
 Assim, investir em escolaridade continua sendo fundamental, mas deve ser planejado.
 """)
 
-st.markdown(""" ## Referências: 
+st.markdown("""## Integrantes:
+- Luiz Eduardo de Sales Carneiro
+- Yuri Estrela Leal
+            
+## Referências: 
 - https://www.infomoney.com.br/carreira/no-brasil-desemprego-atinge-mais-quem-terminou-o-ensino-medio-diz-ocde/
 - https://www.scielo.br/j/rec/a/j8WvQfYgNNDqH5NW336SqTd/?format=pdf&lang=pt
 - https://www.eco.unicamp.br/images/arquivos/artigos/LEP/L31/05_Artigo01.pdf
