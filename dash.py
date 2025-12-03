@@ -9,10 +9,10 @@ st.title("Análise sobre a influência da escolaridade sobre o desemprego")
 
 st.markdown("""
 A escolaridade exerce um papel central na estrutura do mercado de trabalho brasileiro, influenciando diretamente a taxa de desemprego 
-e as oportunidades de inserção profissional. No entanto, essa relação não é simples: diferentemente de muitos países desenvolvidos, 
-onde o desemprego diminui conforme a escolaridade aumenta, o Brasil apresenta um comportamento não linear.
-Com base em dados nacionais e estudos recentes, esta análise busca compreender como diferentes níveis de instrução impactam as taxas 
-de desocupação, considerando assimetrias de informação, diferenças regionais, desafios de qualificação e dinâmicas do mercado de trabalho.
+e as oportunidades de inserção profissional. No entanto, essa relação não é simples, diferentemente de muitos países desenvolvidos, 
+onde o desemprego diminui conforme a escolaridade aumenta, o Brasil apresenta um comportamento nao linear.
+Com base em dados nacionais e estudos recentes, esta análise busca compreender como diferentes niveis de instrução impactam as taxas 
+de desocupação, considerando assimetrias de informação, dferenças regionais, desafios de qualificação e dinâmicas do mercado de trabalho.
 """)
 
 df_desemprego = pd.read_csv("base-dados-desempregos.csv", delimiter = ";", encoding = "utf-8")
@@ -122,12 +122,12 @@ fig_mapa.update_geos(fitbounds="locations", visible=True)
 st.plotly_chart(fig_mapa)
 
 st.markdown("""
-A análise demonstra que a influência da escolaridade sobre o desemprego no Brasil é marcada por múltiplos fatores e não segue o 
+A análise demonstra que a influencia da escolaridade sobre o desemprego no Brasil é marcada por múltiplos fatores e não segue o 
 comportamento linear observado em outros países. O formato não linear evidencia que o mercado de trabalho brasileiro enfrenta 
-desafios particulares, como a assimetria de informação, a heterogeneidade da força de trabalho e a distribuição desigual da escolaridade entre as regiões.
+desafios particulares, como a assimetria de informação, a heterogeneidade da força de trabalho e a distribuição desugual da escolaridade entre as regioes.
 Embora o ensino superior ofereça maior proteção contra o desemprego, a expansão desse nível educacional sem crescimento equivalente 
 de empregos qualificados gera sobre-educação e frustração de expectativas profissionais.
-Os dados reforçam que políticas educacionais precisam vir acompanhadas de estratégias integradas de desenvolvimento econômico, 
+Os dados reforçam que politicas educacionais precisam vir acompanhadas de estratégias integradas de desenvolvimento econômico, 
 redução de desigualdades regionais, qualificação profissional alinhada ao mercado e combate às assimetrias de informação. 
 Assim, investir em escolaridade continua sendo fundamental, mas deve ser planejado.
 """)
